@@ -7,7 +7,7 @@ public class Main {
 
         int x = 22;
 
-       /* /if (x == 20) {
+       /* if (x == 20) {
             x--;
         } else if (x == 21){
             x++;
@@ -29,8 +29,16 @@ public class Main {
             x--;
         } while (x > 20);
         }*/
-        for (int i = 0; i <= 3; i++){
+       /* for (int i = 0; i <= 3; i++){
             System.out.println(i);}
 
-        }
+        }*/
+        if (x*2 > 20) {
+            System.out.println(x);}
+        else if (x*2 < 20){
+            System.out.println(-x);}
+        else if (x == 20) {
+            System.out.println(0);}
     }
+}
+
