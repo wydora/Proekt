@@ -5,11 +5,12 @@ public class zadanie_3 {
         int b, c;
 
 
-        c = 3;
+        c = 4;
         b = 0;
 
         do {
-            System.out.println(b);
+            System.out.print(b);
+            System.out.print(" ");
             b += c;
 
         }
